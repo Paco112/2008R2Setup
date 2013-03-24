@@ -1,0 +1,5 @@
+[OK] Désactiver avertissement de securité sur les exe :http://libreattitude.blogspot.com/2009/01/dsactiver-l-de-scurit-pour-l-des-exe.html
+
+- Activer apparacence max
+
+- Désactiver écriture information de débogage

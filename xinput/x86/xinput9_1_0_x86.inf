@@ -1,0 +1,38 @@
+
+[Version]
+Signature = "$Windows NT$"
+AdvancedINF = 2.0
+Provider = %MSFT%
+Class = %ExceptionClassDesc%
+ClassGUID = {F5776D81-AE53-4935-8E84-B0B283D8BCEF}
+CatalogFile = xinput9_1_0_x86.cat
+ComponentId = {8B594EEF-4FAF-4C62-A647-04CA85E5AB00}
+DriverVer = 12-05-2005, 5.3.1.0904
+
+[SourceDisksNames]
+99 = %DiskName%,"Oct2005_xinput_x86.cab",0,,-1
+
+[SourceDisksFiles]
+xinput9_1_0.dll = 99
+
+[DestinationDirs]
+DirectX_System   = 11
+DirectX_SysWOW64 = 10,SysWOW64
+
+[x86_Install]
+CopyFiles = DirectX_System
+
+[x64_Install]
+CopyFiles = DirectX_SysWOW64
+
+[DirectX_System]
+xinput9_1_0.dll
+
+[DirectX_SysWOW64]
+xinput9_1_0.dll
+
+[Strings]
+MSFT                 = "Microsoft"
+ExceptionClassDesc   = "DirectX 9.0 Oct2005"
+DiskName             = "DirectX 9.0 Oct2005 cab"
+

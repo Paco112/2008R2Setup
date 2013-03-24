@@ -1,0 +1,10 @@
+"C:\Windows\system32\rundll32.exe" C:\Windows\system32\iesetup.dll,IEShowHardeningDialog
+
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\IconsOnly 0
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Hidden 1
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt 0
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarSmallIcons 1
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarSizeMove 0
+
+
+rundll32 netplwiz.dll,ClearAutoLogon 
